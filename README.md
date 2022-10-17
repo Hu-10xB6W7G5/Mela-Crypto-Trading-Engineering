@@ -13,7 +13,7 @@ A robust data-pipeline that can run various backtests and store various useful a
 ## Project Overview
 The main objective of this project is to design and build a reliable, large-scale ,robust data-pipeline that can run various backtests and store various useful artifacts in a robust data warehouse system for Mela who wants to enter the world of cryptocurrencies to make simple trade for everyone.
 
-![image](https://user-images.githubusercontent.com/59474650/195403132-3a79d749-1fc8-4e19-9ff2-469a27b7b75c.png)
+![image](https://user-images.githubusercontent.com/59474650/196071974-6df86c64-2a93-4253-9243-d5ac847b1e88.png)
 
 ## Data
 
@@ -25,10 +25,24 @@ The data used for the EDA of this project is Algorand USD financial dataset, fro
 ![image](https://user-images.githubusercontent.com/59474650/195408248-8f696112-b8cd-4d61-9efb-5abfc75f3dfb.png)
 
 ## Installation Guide
+### Pipline
 ```
 git clone https://github.com/Hu-10xB6W7G5/Mela-Crypto-Trading-Engineering.git
 cd Mela-Crypto-Trading-Engineering
 pip install -r requirements.txt
+```
+### Frontend
+```
+cd Mela-Crypto-Trading-Engineering/frontend
+npm install
+npm start
+```
+### Backend
+```
+cd Mela-Crypto-Trading-Engineering/backend
+npm install
+touch .env #and write the environmental viriables there
+npm start
 ```
 ## Project Structure
 
